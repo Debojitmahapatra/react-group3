@@ -89,7 +89,7 @@ nav ul{
 	box-shadow: 5px 10px 30px rgba(198, 64, 64, 0.411);
 	transition: all ease 0.2s;
 }
-nav ul li a{
+nav ul li a {
     font-family: 'Lato';
 	height:40px;
 	line-height: 43px;
@@ -103,6 +103,12 @@ nav ul li a{
     letter-spacing: 1px;
     border-radius: 3px;
     transition: 0.2s ease-in-out;
+}
+nav ul li:hover{
+    background-color: #dd0d0d;
+    color:#961b1b;
+	box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336);
+	transition: all ease 0.2s;
 }
 nav ul button{
     font-family: 'Lato';
