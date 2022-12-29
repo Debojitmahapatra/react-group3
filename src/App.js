@@ -6,6 +6,7 @@ import Feature from './componentes/Feature';
 import Offer from './componentes/Offer';
 import About from './componentes/About';
 import Contact from './componentes/Contact';
+import Futtter from './componentes/Futtter';
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
       <Offer/>
       <About/>
       <Contact/>
+      <Futtter/>
 
     </div>
   );

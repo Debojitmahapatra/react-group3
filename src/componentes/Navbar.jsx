@@ -22,11 +22,12 @@ function Navbar() {
 
         </label>
         <ul className='menu' >
-            <li><Link to='about' smooth={true} duration={1000}>about</Link></li> 
-            <li><Link to='main'smooth={true} duration={1200}>home</Link></li>
-            <li><Link to='offer'smooth={true} duration={1300}>pricing</Link></li>
-            <li><Link to='features'smooth={true} duration={1400}>program</Link></li>
-            <button><Link to='contact' smooth={true} duration={1600}> register now</Link></button>
+        <li><Link to='footer'smooth={true} duration={1200}>HOME</Link></li>
+        <li><Link to='about' smooth={true} duration={1000}>ABOUT</Link></li> 
+            
+            <li><Link to='offer'smooth={true} duration={1300}>PRICING</Link></li>
+            <li><Link to='features'smooth={true} duration={1400}>PROGRAM</Link></li>
+            <button><Link to='contact' smooth={true} duration={1600}> REGISTER NOW</Link></button>
         </ul>
     </nav>
   )
