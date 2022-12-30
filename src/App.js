@@ -7,6 +7,7 @@ import Offer from './componentes/Offer';
 import About from './componentes/About';
 import Contact from './componentes/Contact';
 import Futtter from './componentes/Futtter';
+import Price from './componentes/Price';
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
       
       <Feature/>
       <Offer/>
+      <Price/>
       <About/>
       <Contact/>
       <Futtter/>

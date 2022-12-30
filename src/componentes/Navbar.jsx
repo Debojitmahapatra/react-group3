@@ -25,7 +25,7 @@ function Navbar() {
         <li><Link to='main' className='logo' smooth={true} duration={2000}>HOME</Link></li>
         <li><Link to='about' smooth={true} duration={1000}>ABOUT</Link></li> 
             
-            <li><Link to='offer'smooth={true} duration={1300}>PRICING</Link></li>
+            <li><Link to='price'smooth={true} duration={1300}>PRICING</Link></li>
             <li><Link to='features'smooth={true} duration={1400}>PROGRAM</Link></li>
             <button><Link to='contact' smooth={true} duration={1600}> REGISTER NOW</Link></button>
         </ul>
