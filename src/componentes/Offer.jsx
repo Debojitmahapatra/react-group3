@@ -3,7 +3,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 // import image from "../images/offer.png"
-
+import {Link} from "react-scroll"
 function Offer() {
   return (
     <div id='offer'> 
@@ -11,7 +11,7 @@ function Offer() {
        <h1>A BIG <span>OFFER</span> ON THIS WINTER</h1>
        <p className='details'>To be successful, you need to follow the rules and regulations. Survival tricks during the coronavirus pandemic. Effective listening is more important than talking. The importance of constant professional self-improvement.</p>
          <div className='pr-btns'>
-            <a href="#" className='pr-btn'> JOIN NOW </a>
+            <a href="#" className='pr-btn'><Link to='contact' smooth={true} duration={1600}>JOIN NOW </Link> </a>
          </div>
       </div>
     </div>
